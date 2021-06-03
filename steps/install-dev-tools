@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# install AWS CLI
+brew install awscli
+brew install --cask aws-vault
+
+# install GDS CLI (NB. requires an SSH key configured)
+brew tap alphagov/gds && brew install gds-cli && gds --version
+
+# install some dev tools
+xcode-select --install
+brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask intellij-idea # or: intellij-idea-ce
+brew install --cask rubymine
+brew install --cask pycharm
+bfew install --cask webstorm
+brew install --cask docker
+brew tap homebrew/cask-versions
+brew install --cask visual-studio
