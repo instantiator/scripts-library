@@ -33,7 +33,7 @@ rbenv install 2.7.2
 
 # java toolchain
 brew tap adoptopenjdk/openjdk
-brew install --cask adoptopenjdk8
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
 brew install --cask adoptopenjdk11
 brew install --cask adoptopenjdk13
 echo 'export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)' >> ~/.zshrc
