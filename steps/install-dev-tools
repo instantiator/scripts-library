@@ -42,6 +42,11 @@ echo 'export jAVA_13_HOME=$(/usr/libexec/java_home -v13)' >> ~/.zshrc
 echo 'alias java8="export JAVA_HOME=$JAVA_8_HOME"' >> ~/.zshrc
 echo 'alias java11="export JAVA_HOME=$JAVA_11_HOME"' >> ~/.zshrc
 echo 'alias java13="export JAVA_HOME=$JAVA_13_HOME"' >> ~/.zshrc
+source ~/.zshrc
 
 # default to Java 11
 java11
+
+# xml signing tools
+brew install xmlsectool
+brew install opensc # but do we need version 0.17.0?
