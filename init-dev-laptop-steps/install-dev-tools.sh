@@ -29,6 +29,15 @@ bfew install --cask webstorm
 brew tap homebrew/cask-versions
 brew install --cask visual-studio
 
+# documentation toolchain
+echo "Installing documentation tools..."
+brew install pandoc
+brew install --cask basictex
+
+# python toolchain
+echo "Installing Anaconda Python..."
+brew install --cask anaconda
+
 # ruby toolchain
 echo "Installing Ruby toolchain..."
 brew install rbenv
