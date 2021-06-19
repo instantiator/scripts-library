@@ -20,6 +20,7 @@ xcode-select --install || true # may already be installed
 # install some IDE and dev tools
 echo "Installing IDE and dev tools..."
 brew install --cask iterm2
+brew install bat
 brew install wget
 brew install --cask visual-studio-code
 brew install --cask intellij-idea # or: intellij-idea-ce
