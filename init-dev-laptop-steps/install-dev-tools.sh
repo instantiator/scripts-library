@@ -26,7 +26,7 @@ brew install --cask visual-studio-code
 brew install --cask intellij-idea # or: intellij-idea-ce
 brew install --cask rubymine
 brew install --cask pycharm
-bfew install --cask webstorm
+brew install --cask webstorm
 brew tap homebrew/cask-versions
 brew install --cask visual-studio
 

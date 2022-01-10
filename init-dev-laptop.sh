@@ -18,6 +18,7 @@ fi
 # check the ssh directory for a key
 echo "Create an SSH key..."
 echo "Contents of your ~/.ssh directory:"
+mkdir -p ~/.ssh
 ls -al ~/.ssh
 echo "If there's no <key> and <key>.pub, you'll need a new SSH key."
 echo "Create a new SSH key? (y/n)"
