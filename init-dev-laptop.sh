@@ -39,8 +39,9 @@ echo "Installing Homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install dev tools
-echo "Installing dev tools..."
-source ./init-dev-laptop-steps/install-dev-tools.sh
+echo "Installing basic dev tools..."
+source ./init-dev-laptop-steps/install-dev-essentials.sh
+source ./init-dev-laptop-steps/install-aws-toolchain.sh
 
 # install a few productivity tools
 echo "Installing productivity tools..."
