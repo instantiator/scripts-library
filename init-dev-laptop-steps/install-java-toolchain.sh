@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # java toolchain
-echo "Installing Java toolchain..."
+echo "Installing LTS java toolchains..."
 brew tap adoptopenjdk/openjdk
 brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
 brew install --cask adoptopenjdk11
-brew install --cask adoptopenjdk13
+brew install --cask adoptopenjdk17
 echo 'export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)' >> ~/.zprofile
 echo 'export JAVA_11_HOME=$(/usr/libexec/java_home -v11)' >> ~/.zprofile
 echo 'export jAVA_17_HOME=$(/usr/libexec/java_home -v17)' >> ~/.zprofile
