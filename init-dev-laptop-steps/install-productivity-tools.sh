@@ -20,3 +20,4 @@ brew install --cask slack # communication tool
 brew install --cask discord # communication tool
 brew install --cask signal # chat app
 brew install --cask openoffice # office suite
+brew install bluesnooze # disables wake for bluetooth
