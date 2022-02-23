@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]
 then
-    echo "Please provide a project name."
+    echo "Please provide a project folder name."
     exit 1
 fi
 
